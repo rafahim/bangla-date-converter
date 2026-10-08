@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3faf5"/><stop offset="1" stop-color="#dcefe3"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7d99b"/><stop offset="1" stop-color="#e7b65f"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="135" r="240" fill="#cfe7d8" opacity=".65"/>
+  <circle cx="1040" cy="140" r="175" fill="none" stroke="#8fc3a3" stroke-width="2" opacity=".7"/>
+  <circle cx="1040" cy="140" r="220" fill="none" stroke="#b5d9c1" stroke-width="2"/>
+  <rect x="80" y="76" width="72" height="72" rx="22" fill="#0d6b53"/>
+  <text x="116" y="124" font-family="sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">বা</text>
+  <text x="175" y="106" font-family="sans-serif" font-size="22" font-weight="700" fill="#194a38">RA Fahim</text>
+  <text x="175" y="132" font-family="sans-serif" font-size="15" fill="#648273">BANGLA DATE CONVERTER</text>
+  <text x="80" y="254" font-family="sans-serif" font-size="58" font-weight="700" fill="#173d2e">ইংরেজি ও বাংলা</text>
+  <text x="80" y="328" font-family="sans-serif" font-size="62" font-weight="700" fill="#0d6b53">তারিখ রূপান্তর</text>
+  <text x="84" y="384" font-family="sans-serif" font-size="21" fill="#577667">Gregorian ↔ Bengali Calendar · Bangla Academy 2019</text>
+  <rect x="80" y="444" width="405" height="66" rx="16" fill="#fff" stroke="#d4e9db"/>
+  <text x="108" y="485" font-family="sans-serif" font-size="20" fill="#285b43">দ্রুত • নির্ভুল • ব্রাউজারেই</text>
+  <circle cx="1004" cy="320" r="140" fill="url(#gold)"/>
+  <circle cx="1004" cy="320" r="111" fill="#fff9e9" opacity=".88"/>
+  <text x="1004" y="286" font-family="sans-serif" font-size="19" fill="#54725c" text-anchor="middle">আজকের দিন</text>
+  <text x="1004" y="355" font-family="sans-serif" font-size="76" font-weight="700" fill="#0d6b53" text-anchor="middle">১৪</text>
+  <text x="1004" y="389" font-family="sans-serif" font-size="23" font-weight="700" fill="#285b43" text-anchor="middle">বৈশাখ</text>
+  <text x="80" y="580" font-family="sans-serif" font-size="16" fill="#719080">rafahim.com/bangla-date/</text>
+</svg>

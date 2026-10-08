@@ -1,0 +1,15 @@
+{
+  "id": "/bangla-date/",
+  "name": "Bangla Date Converter — RA Fahim",
+  "short_name": "বাংলা তারিখ",
+  "description": "Bangla Academy 2019 revised Gregorian and Bangla calendar converter.",
+  "lang": "bn-BD",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8f6",
+  "theme_color": "#0d6b53",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

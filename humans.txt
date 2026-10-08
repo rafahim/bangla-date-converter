@@ -1,0 +1,13 @@
+Creator: RA Fahim
+Role: Web Developer & Creator, Full-stack, 1 year
+Website: https://rafahim.com
+GitHub: https://github.com/rafahim
+Email: dev@rafahim.com
+X: https://twitter.com/rafahimn
+LinkedIn: https://linkedin.com/in/rafahimn
+Location: Dhaka, Bangladesh
+
+Standards: HTML5, CSS3, ECMAScript modules
+Calendar: Bangladesh Bangla Academy 2019 revised civil calendar
+Privacy: Gregorian and Bangla conversion is calculated locally in the browser
+Copyright: 2026 RA Fahim

@@ -1,0 +1,14 @@
+{
+  "name": "bangla-date-converter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bangla Academy 2019 Bengali calendar converter",
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

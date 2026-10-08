@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bangla Date Converter — English to Bengali Calendar Date Converter | RA Fahim</title>
+  <meta name="description" content="বাংলা একাডেমির ২০১৯ সালের সংশোধিত পঞ্জিকা অনুযায়ী ইংরেজি তারিখ থেকে বাংলা তারিখ এবং বাংলা তারিখ থেকে ইংরেজি তারিখ নির্ভুলভাবে রূপান্তর করুন।">
+  <meta name="keywords" content="bangla date converter, bengali calendar, bangla year converter, pohela boishakh, বাংলা তারিখ, বাংলা ক্যালেন্ডার, ইংরেজি বাংলা তারিখ">
+  <meta name="author" content="RA Fahim">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://rafahim.com/bangla-date/">
+  <meta name="theme-color" content="#0d6b53">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="bn_BD">
+  <meta property="og:site_name" content="RA Fahim">
+  <meta property="og:title" content="Bangla Date Converter — English to Bengali Calendar Date Converter | RA Fahim">
+  <meta property="og:description" content="বাংলা ও ইংরেজি তারিখ রূপান্তর করুন বাংলা একাডেমির ২০১৯ সালের সংশোধিত ক্যালেন্ডার অনুযায়ী।">
+  <meta property="og:url" content="https://rafahim.com/bangla-date/">
+  <meta property="og:image" content="https://rafahim.com/bangla-date/og-image.svg">
+  <meta property="og:image:alt" content="Bangla Date Converter by RA Fahim">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bangla Date Converter — English to Bengali Calendar Date Converter | RA Fahim">
+  <meta name="twitter:description" content="বাংলা ও ইংরেজি তারিখ সহজে রূপান্তর করুন।">
+  <meta name="twitter:image" content="https://rafahim.com/bangla-date/og-image.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Bangla Date Converter",
+        "url": "https://rafahim.com/bangla-date/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "bn-BD",
+        "description": "Bangla Academy 2019 revised calendar converter for Gregorian and Bengali dates.",
+        "author": { "@type": "Person", "name": "RA Fahim", "url": "https://rafahim.com" }
+      },
+      {
+        "@type": "Person",
+        "name": "RA Fahim",
+        "url": "https://rafahim.com",
+        "jobTitle": "Web Developer & Creator",
+        "description": "Full-stack web developer and creator; 1 year.",
+        "homeLocation": { "@type": "Place", "name": "Dhaka, Bangladesh" },
+        "sameAs": ["https://github.com/rafahim", "https://twitter.com/rafahimn", "https://linkedin.com/in/rafahimn"]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://rafahim.com" },
+          { "@type": "ListItem", "position": 2, "name": "Bangla Date Converter", "item": "https://rafahim.com/bangla-date/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="https://rafahim.com" aria-label="RA Fahim home">
+        <span class="brand-mark">বা</span>
+        <span class="brand-copy"><strong>বাংলা তারিখ</strong><small>Bangla Date Converter</small></span>
+      </a>
+      <div class="top-actions">
+        <span class="standard-pill"><span class="status-dot"></span> বাংলা একাডেমি ২০১৯</span>
+        <button id="theme-toggle" class="icon-button" type="button" aria-label="ডার্ক মোড চালু বা বন্ধ করুন" title="থিম পরিবর্তন"><span id="theme-icon">☾</span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> বাংলাদেশি বাংলা ক্যালেন্ডার</p>
+          <h1>ইংরেজি ও বাংলা<br><span>তারিখ রূপান্তর</span></h1>
+          <p class="hero-description">বাংলা একাডেমির ২০১৯ সালের সংশোধিত পঞ্জিকা অনুযায়ী যেকোনো তারিখ রূপান্তর করুন। সহজ, নির্ভুল এবং আপনার ব্রাউজারেই।</p>
+          <div class="hero-tags"><span>✓ দ্বিমুখী রূপান্তর</span><span>✓ ফাল্গুনের লিপ-ইয়ার নিয়ম</span><span>✓ ব্যক্তিগত ডেটা ডিভাইসেই থাকে</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div><div class="art-leaf leaf-one"></div><div class="art-leaf leaf-two"></div>
+          <div class="art-date"><span>আজকের দিন</span><strong id="hero-bangla-day">—</strong><small id="hero-bangla-month">বাংলা তারিখ</small></div>
+          <span class="art-floating floating-one">১৪</span><span class="art-floating floating-two">বৈশাখ</span>
+        </div>
+      </section>
+
+      <section class="dashboard-grid" aria-label="তারিখ রূপান্তর">
+        <article class="panel converter-panel">
+          <div class="panel-heading">
+            <div><span class="section-kicker">DATE CONVERTER</span><h2>তারিখ রূপান্তর করুন</h2></div>
+            <span class="panel-icon">⇄</span>
+          </div>
+          <div class="mode-switch" role="tablist" aria-label="রূপান্তরের ধরন">
+            <button class="mode-tab active" data-mode="to-bangla" type="button" role="tab" aria-selected="true">ইংরেজি → বাংলা</button>
+            <button class="mode-tab" data-mode="to-gregorian" type="button" role="tab" aria-selected="false">বাংলা → ইংরেজি</button>
+          </div>
+          <form id="converter-form" novalidate>
+            <div id="gregorian-inputs" class="field-group">
+              <label for="gregorian-date">ইংরেজি তারিখ নির্বাচন করুন</label>
+              <div class="date-input-wrap"><span class="field-symbol">▦</span><input id="gregorian-date" name="gregorian-date" type="date" required></div>
+              <p class="field-hint">দিন / মাস / বছর — Gregorian calendar</p>
+            </div>
+            <div id="bangla-inputs" class="field-group hidden" aria-hidden="true">
+              <label>বাংলা তারিখ লিখুন</label>
+              <div class="bangla-fields">
+                <div><label class="sub-label" for="bangla-day">দিন</label><input id="bangla-day" type="number" min="1" max="31" inputmode="numeric" placeholder="দিন" value="1"></div>
+                <div><label class="sub-label" for="bangla-month">মাস</label><select id="bangla-month"></select></div>
+                <div><label class="sub-label" for="bangla-year">বঙ্গাব্দ</label><input id="bangla-year" type="number" min="1" max="9000" inputmode="numeric" placeholder="বছর"></div>
+              </div>
+              <p class="field-hint">বাংলা একাডেমির সংশোধিত ক্যালেন্ডার</p>
+            </div>
+            <button class="primary-button" type="submit"><span>তারিখ রূপান্তর করুন</span><span class="button-arrow">↗</span></button>
+            <p id="converter-error" class="form-error" role="alert"></p>
+          </form>
+          <div id="conversion-result" class="conversion-result" aria-live="polite">
+            <div class="result-topline"><span class="result-label">রূপান্তরের ফলাফল</span><span class="result-check">✓</span></div>
+            <p id="result-weekday" class="result-weekday">আজকের দিন</p>
+            <h3 id="result-main">তারিখ প্রস্তুত হচ্ছে…</h3>
+            <p id="result-secondary" class="result-secondary">ইংরেজি তারিখ</p>
+            <div class="result-meta"><span><small>ঋতু</small><strong id="result-season">—</strong></span><span><small>বঙ্গাব্দ</small><strong id="result-year">—</strong></span><span><small>মাসের দিন</small><strong id="result-month-length">—</strong></span></div>
+            <div class="result-actions"><button type="button" id="copy-result" class="utility-button">▣ কপি</button><button type="button" id="share-result" class="utility-button">↗ শেয়ার</button><button type="button" id="print-result" class="utility-button">⎙ প্রিন্ট</button></div>
+            <p id="copy-feedback" class="copy-feedback" aria-live="polite"></p>
+          </div>
+        </article>
+
+        <div class="side-stack">
+          <article class="today-card">
+            <div class="today-card-top"><span class="today-spark">✳</span><span>আজকের বাংলা তারিখ</span><span class="today-live">LIVE</span></div>
+            <p id="today-weekday" class="today-weekday">—</p>
+            <div class="today-date-line"><strong id="today-day">—</strong><div><span id="today-month">—</span><small id="today-year">—</small></div></div>
+            <div class="today-divider"></div>
+            <div class="today-bottom"><span id="today-gregorian">—</span><span id="today-season" class="season-pill">—</span></div>
+          </article>
+          <article class="countdown-card">
+            <div class="countdown-icon">✿</div><div class="countdown-content"><p class="section-kicker">NEXT CELEBRATION</p><h3>পহেলা বৈশাখ</h3><p id="pohela-date">১৪ এপ্রিল</p></div>
+            <div class="countdown-count"><strong id="pohela-days">—</strong><span id="pohela-label">দিন বাকি</span></div>
+          </article>
+          <article class="calendar-note"><span class="note-icon">ⓘ</span><p><strong>ক্যালেন্ডার নোট</strong><br>১৪ এপ্রিল বাংলা বছরের প্রথম দিন। ফাল্গুনে গ্রেগরিয়ান অধিবর্ষ অনুযায়ী ২৯ বা ৩০ দিন থাকে।</p></article>
+        </div>
+      </section>
+
+      <section class="tools-section">
+        <div class="section-header"><div><p class="section-kicker">MORE DATE TOOLS</p><h2>আরও তারিখের হিসাব</h2></div><p>দৈনন্দিন প্রয়োজনীয় হিসাব এক জায়গায়</p></div>
+        <div class="tools-grid">
+          <article class="panel tool-card">
+            <div class="tool-title-row"><span class="tool-icon age-icon">বছর</span><div><h3>বাংলা হিসাবে বয়স</h3><p>বঙ্গাব্দ অনুযায়ী পূর্ণ বয়স</p></div></div>
+            <form id="age-form" class="tool-form" novalidate><label for="birth-date">জন্মতারিখ</label><input id="birth-date" type="date" required><button class="secondary-button" type="submit">বয়স হিসাব করুন <span>→</span></button><p id="age-result" class="tool-result" aria-live="polite">জন্মতারিখ নির্বাচন করুন।</p></form>
+          </article>
+          <article class="panel tool-card">
+            <div class="tool-title-row"><span class="tool-icon diff-icon">∆</span><div><h3>তারিখের ব্যবধান</h3><p>দুই তারিখের মাঝে কত দিন</p></div></div>
+            <form id="difference-form" class="tool-form" novalidate><label for="diff-start">শুরুর তারিখ</label><input id="diff-start" type="date" required><label for="diff-end">শেষের তারিখ</label><input id="diff-end" type="date" required><button class="secondary-button" type="submit">ব্যবধান বের করুন <span>→</span></button><p id="difference-result" class="tool-result" aria-live="polite">দুটি তারিখ নির্বাচন করুন।</p></form>
+          </article>
+          <article class="panel holiday-card">
+            <div class="holiday-heading"><div><p class="section-kicker">BANGLADESH</p><h3>জাতীয় দিবস ও ছুটি</h3></div><span class="holiday-icon">▤</span></div>
+            <p class="holiday-year" id="holiday-year">২০২৬ সালের নির্দিষ্ট তারিখ</p>
+            <div id="holiday-list" class="holiday-list"></div>
+            <p class="holiday-note">ঈদ ও অন্যান্য চন্দ্রভিত্তিক ছুটির তারিখ সরকারি ঘোষণায় পরিবর্তিত হতে পারে।</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-section">
+        <div class="how-copy"><p class="section-kicker">HOW IT WORKS</p><h2>সহজ হিসাব, নির্ভরযোগ্য নিয়ম</h2><p>এই কনভার্টার বাংলাদেশে ব্যবহৃত বাংলা একাডেমির ২০১৯ সালের সংশোধিত নাগরিক পঞ্জিকা অনুসরণ করে। ঐতিহাসিক বছরের তারিখও একই নিয়ম ধারাবাহিকভাবে প্রয়োগ করে হিসাব করা হয়।</p></div>
+        <div class="rule-list"><div><span>০১</span><p><strong>বৈশাখ থেকে আশ্বিন</strong><small>প্রতিটি মাস ৩১ দিনের</small></p></div><div><span>০২</span><p><strong>কার্তিক থেকে মাঘ</strong><small>প্রতিটি মাস ৩০ দিনের</small></p></div><div><span>০৩</span><p><strong>ফাল্গুন ও চৈত্র</strong><small>ফাল্গুন ২৯/৩০ দিন, চৈত্র ৩০ দিন</small></p></div></div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="footer-brand" href="https://rafahim.com">RA Fahim</a><p>Built with ❤️ by RA Fahim · <a href="https://rafahim.com">rafahim.com</a> · © 2026 RA Fahim</p><div class="footer-links"><a href="https://github.com/rafahim">GitHub</a><a href="mailto:dev@rafahim.com">Contact</a></div></footer>
+  </div>
+</body>
+</html>
